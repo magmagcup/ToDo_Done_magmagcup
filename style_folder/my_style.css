@@ -1,0 +1,189 @@
+.BLOCK {
+    background-color: slategrey;
+}
+
+
+
+.BANNER {
+    background-color: azure;
+    padding-top: 25%;
+    width: 100%;
+    height: 100%;
+    background: #33cccc;
+    display: table;
+    text-align: center;
+
+}
+
+
+.BANNER_TEXT {
+    background-color: white;
+    margin-top: 10px;
+    border: solid #33cccc;
+    padding-top: 10px;
+    padding-left: 40%;
+    font-weight: 800;
+    width: 100%;
+    text-align: left;
+
+}
+
+a {
+    transition-duration: 0.4s;
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    transition-duration: 0.4s;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.sub_BANNER_TEXT {
+    background-color: #92e2e4;
+    border-color: #92e2e4;
+}
+
+
+
+.TODO_EXTENSION {
+    transition-duration: 0.4s;
+    background-color: grey;
+    border-color: #92e2e4;
+    padding: 20px;
+    width: 25%;
+    text-align: center;
+
+}
+
+.TODO_EXTENSION:hover {
+    background-color: lightslategrey;
+    font-weight: bolder;
+    border-color: #92e2e4;
+
+    padding: 25px;
+    width: 35%;
+
+
+}
+
+.DONE_EXTENSION {
+    transition-duration: 0.4s;
+    background-color: gainsboro;
+    border-color: #92e2e4;
+
+    padding: 20px;
+    width: 25%;
+    text-align: center;
+}
+
+.DONE_EXTENSION:hover {
+    background-color: rgba(127, 255, 212, 0.63);
+    border-color: #92e2e4;
+
+    font-weight: bolder;
+
+    padding: 25px;
+    width: 35%;
+
+}
+
+.overall_banner {
+    display: inline;
+
+}
+
+.inner_banner {
+    background-color: white;
+    border-color: grey;
+    word-wrap: break-word;
+
+    width: 100%;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+.app_table {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: cadetblue;
+    display: inline;
+    
+
+}
+
+.app_table:hover {
+    transition-duration: 0.4s;
+    color: grey;
+    font-weight: bold;
+}
+
+.TODO_BUTTON {
+    transition-duration: 0.4s;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-right: 40px;    
+    background-color: white;
+    border-color: grey;
+
+    border: none;
+}
+
+.TODO_BUTTON:hover {
+    transition-duration: 0.4s;
+    padding-right: 80px;
+    background-color: white;
+    color: grey;
+    font-weight: bolder;
+
+    border-color: grey;
+
+}
+
+.TODO_DONE_TEXT:hover {
+    transition-duration: 0.4s;
+
+    background-color: whitesmoke;
+    font-weight: bolder;
+    border-color: #92e2e4;
+    color: lightslategrey;
+
+    width: 90%;
+
+}
+
+.TODO_DONE_TEXT {
+    transition-duration: 0.4s;
+
+    background-color: lightslategrey;
+    margin-top: 10px;
+    border: solid lightslategray;
+    padding-top: 10px;
+
+    color: gainsboro;
+    font-weight: 800;
+    width: 80%;
+    text-align: center;
+    display: block;
+}
+
+
+.borderless_button {
+
+    display: none;
+    border: none;
+    font-weight: 400;
+
+}
+
+.borderless_button:hover {
+
+    font-weight: 800;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Todo</title>
+    <link rel="stylesheet" href="style_folder/my_style.css">
+    <script type="text/javascript" src="java_folder/my_script.js"></script>
+</head>
+
+<body>
+    <div id="Move_here"> </div>
+
+    <div class="BANNER" id="banner">
+
+        <h1 class="BANNER_TEXT" id="Move_this" onmouseover="moving()">TODO - DONE <sub class="sub_BANNER_TEXT"><a
+                    href="https://github.com/magmagcup">
+                    Magmagcup</a></sub>
+        </h1>
+        <div class="overall_banner">
+            <div class="app_table TODO_EXTENSION" style="display: none;" id="application_table_1"
+                onmouseover="showAdd()" onmouseleave="hideAdd()">
+                <h2 class="inner_banner">TODO</h2>
+
+                <input type="text" id="add to do" class="TODO_EXTENSION" style="width: 75%;">
+
+                <button onclick="AddList('TODO_table','todo', document.getElementById('add to do').value)" class="TODO_EXTENSION" style="width: 75%; display: none;" id="add button">
+                    ADD
+                </button>
+                
+                <h2 class="inner_banner">
+                    TODO LIST
+                </h2>
+                <table id="TODO_table" class = "inner_banner" style = "margin: 0; padding: 0;">
+                </table>
+            </div>
+            <div class="app_table DONE_EXTENSION" style="display: none;" id="application_table_2">
+                <h2 class="inner_banner">DONELIST</h2>
+                <table id="DO_table" class = "inner_banner" style = "margin: 0; padding: 0;">
+                </table>
+            </div>
+        </div>
+    </div>
+    <h2 class="inner_banner"></h2>
+    <div class="BANNER" id="banner">
+    </div>
+
+
+
+</body>
+
+</html>
